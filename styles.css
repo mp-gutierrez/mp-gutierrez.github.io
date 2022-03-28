@@ -48,3 +48,20 @@ nav a {
     height: 30px;
     width: 30px;
 }
+
+.navbar {
+    grid-area: 1 / 2 / 2 / 4;
+    
+}
+  
+.content {
+    grid-area: 2 / 1 / 4 / 5;
+}
+  
+.contact-title {
+    grid-area: 4 / 2 / 5 / 4;
+}
+  
+.contact-content {
+    grid-area: 5 / 2 / 6 / 4;
+}
