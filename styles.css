@@ -9,11 +9,8 @@ body {
 
 section {
     color: #fff;
-    font-size: 3em;
+    font-size: 1.5em;
     font-weight: 800;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     height: 100vh;
 }
 
@@ -38,30 +35,80 @@ nav {
     top: 50%;
     right: 0;
     transform: translateY(-50%);
+    grid-area: nav;
 }
 
 nav a {
-    border: 4px solid #fff;
+    border: 5px solid #fff;
     border-radius: 50%;
     display: block;
     margin: 10px;
-    height: 30px;
-    width: 30px;
+    height: 40px;
+    width: 40px;
 }
 
-.navbar {
-    grid-area: 1 / 2 / 2 / 4;
-    
+.icon-nav {
+    text-align: center;
+    font-size: 30px;
+    padding: 0 0 0 5px;
+    margin: 0 20px 0 0;
+}
+
+.zoom {
+    transition: transform .2s; /* Animation */
 }
   
-.content {
-    grid-area: 2 / 1 / 4 / 5;
+.zoom:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
-  
-.contact-title {
-    grid-area: 4 / 2 / 5 / 4;
+
+.grid {
+    display: grid;
+    grid-template-areas: 
+    'header header header'
+    'main text  nav'
+    'footer  footer footer';
+    grid-template-columns: 2fr 1fr 0.5fr;
+    grid-template-rows: 20% 60% 20%;
 }
-  
-.contact-content {
-    grid-area: 5 / 2 / 6 / 4;
+
+header {
+    grid-area: header;
+}
+
+footer {
+    grid-area: footer;
+}
+
+main {
+    grid-area: main;
+}
+
+.text {
+    grid-area: text;
+}
+
+h1 {
+    color: #8e44ad;
+}
+
+.img-container {
+    height: 10%;
+    clip-path: circle(20%);
+}
+
+#circle{
+    background: url("./images/0209.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 110%;
+    background-position: center;
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+    margin: 0 0 0 60%;
+}
+
+#logo {
+    height: 100px;
+    margin: 0 0 50px 0;
 }
