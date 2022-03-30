@@ -61,7 +61,7 @@ nav a {
     'main text  nav'
     'footer  footer footer';
     grid-template-columns: 60% 30% 10%;
-    grid-template-rows: 20% 50% 30%;
+    grid-template-rows: 20% 45% 35%;
     gap: 5px;
 }
 
@@ -74,6 +74,9 @@ header {
 
 footer {
     grid-area: footer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 main {
@@ -82,6 +85,10 @@ main {
 
 .text {
     grid-area: text;
+    background-color: #2980b9;
+    border-radius: 8%;
+    height: 75%;
+    margin-top: 5%;
 }
 
 #circle{
@@ -98,20 +105,21 @@ main {
 #logo {
     background-color: #2980b9;
     border-radius: 20px;
-    padding: 10px;
-    height: 60%;
+    padding: 20px;
+    height: 55%;
     margin: 0 0 0 5%;
 }
 
 .vid-container {
     width: 70%;
     height: 80%;
-    margin: auto;
+    margin: 2% auto 0 auto;
 }
 
 .p-container {
-    padding: 2%;
+    padding: 4%;
     font-size: 1.2em;
+    text-align: center;
 }
 
 iframe {
@@ -123,6 +131,7 @@ iframe {
     color: rgb(255, 230, 0);
     font-size: 2em;
     margin-bottom: 0;
+    text-align: center;
 }
 
 .highlight {
@@ -133,13 +142,6 @@ iframe {
     color: #e74c3c;
 }
 
-.ref-links {
-    font-size: 2em;
-}
-
-p {
-    margin: 0 0 5% 0;
-}
 
 .phrase-container {
     margin: auto;
@@ -148,7 +150,7 @@ p {
     font-family: 'Montserrat Alternates', sans-serif;
 }
 
-h4 {
+h4 { /*phrase*/
     width: 150%;
     text-align: center;
     margin: auto;
@@ -161,8 +163,28 @@ a {
     text-decoration: none;
 }
 
-.title-footer {
+a:visited {
+    text-decoration: none;
+    color: #fff;
+  }
+
+.footer-title {
     color: rgb(255, 230, 0);
     font-size: 2em;
-    margin: 0;
+
+}
+
+
+p {
+    font-size: 1em;
+}
+
+.link {
+    text-align: center;
+    width: 100px;
+    height: 100px;
+}
+
+.footer-content {
+
 }
