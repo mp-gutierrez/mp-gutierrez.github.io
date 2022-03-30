@@ -6,18 +6,26 @@
     <title>MP's portfolio</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
 
     <section id="page-1">
         <div class="grid">
             <nav>
-                <a title="About me" href="#page-1"><i class="bi bi-person-fill icon-nav zoom"></i></a>
+                <a title="About me" href="#page-1"><i class="bi bi-person-fill icon-nav"></i></a>
                 <a title="Projects" href="#page-2"><i class="bi bi-file-code-fill icon-nav"></i></a>
             </nav>
             <header>
                 <img src="./images/mp-logo-trans-med.png" id="logo">
-                <h4>"Lorem ipsum dolor sit amet, consectetur adipiscing elit."</h4>
+                <div class="phrase-container">
+                    <h4>Almost before we knew it, we had left the ground.</h4>
+                </div>
             </header>
             <main>
                 <div class="vid-container">
@@ -26,14 +34,18 @@
             </main>
             <div class="text">
                 <h1 class="titles">Bio</h1>
-                <div  class="p-container"><p>My name is Maria Paz Gutierrez and I'm from Guayaquil, Ecuador. Even though I'm now based in Spain, I'm working remotely on my own accounting firm as a finance manager. After a couple of years in this field, I decided to take the plunge and incur into the world of software development. At the moment, I'm enrolled in the MIT xPro coding program learning web development using the MERN stack.</p></div>
+                <div  class="p-container"><p>My name is Maria Paz Gutierrez and I'm an<span class="highlight"> audiovisual communicator </span>based in Spain. After a couple of years in this field, I decided to make a complete overhaul and become a <span class="highlight">full-stack developer</span>. At the moment, I'm enrolled in the MIT xPro coding program learning web development using the MERN stack.</p></div>
                 <div id="circle"></div>
             </div>
             <footer>
-                <h4 class="titles">More about me</h4>
+                <div class="footer-title">
+                    <h3 class="titles">More about me</h3>
+                </div>
                 <div class="ref-links">
                     <a href="https://www.linkedin.com/in/maria-paz-gutierrez/">Linked<i class="bi bi-linkedin"></i></a>
-                    <a href="https://github.com/mp-gutierrez">GitHub<i class="bi bi-github"></i></a>
+                        GitHub <i class="bi bi-github"></i> <br>
+                        <a href="https://github.com/mp-gutierrez"><p class="footer-content">mp-gutierrez</p></a>
+                    </a>
                 </div>
                 
             </footer>

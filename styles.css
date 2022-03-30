@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    font-family: 'Open Sanse', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
 }
 
@@ -57,7 +57,7 @@ nav a {
 .grid {
     display: grid;
     grid-template-areas: 
-    'header header header'
+    'header content content'
     'main text  nav'
     'footer  footer footer';
     grid-template-columns: 60% 30% 10%;
@@ -67,6 +67,9 @@ nav a {
 
 header {
     grid-area: header;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 footer {
@@ -87,26 +90,28 @@ main {
     background-size: 100% 110%;
     background-position: center;
     border-radius: 50%;
-    height: 40%;
-    width: 40%;
-    margin: 0 0 0 60%;
+    height: 150px;
+    width: 150px;
+    margin: auto;
 }
 
 #logo {
-    height: 50%;
-    margin: 0 0 0 10%;
+    background-color: #2980b9;
+    border-radius: 20px;
+    padding: 10px;
+    height: 60%;
+    margin: 0 0 0 5%;
 }
 
 .vid-container {
-    width: 90%;
-    height: 100%;
+    width: 70%;
+    height: 80%;
     margin: auto;
-    background: lightcoral; /*to erase*/
 }
 
 .p-container {
     padding: 2%;
-    font-size: 1.4em;
+    font-size: 1.2em;
 }
 
 iframe {
@@ -116,8 +121,48 @@ iframe {
 
 .titles {
     color: rgb(255, 230, 0);
+    font-size: 2em;
+    margin-bottom: 0;
+}
+
+.highlight {
+    background-color: #e74c3c;  
 }
 
 .titles-projects {
     color: #e74c3c;
+}
+
+.ref-links {
+    font-size: 2em;
+}
+
+p {
+    margin: 0 0 5% 0;
+}
+
+.phrase-container {
+    margin: auto;
+    width: 40%;
+    font-size: 1.6em;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+h4 {
+    width: 150%;
+    text-align: center;
+    margin: auto;
+    padding: 20px 0;
+    background-color: #2980b9;
+    border-radius: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.title-footer {
+    color: rgb(255, 230, 0);
+    font-size: 2em;
+    margin: 0;
 }
