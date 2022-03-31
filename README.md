@@ -21,4 +21,4 @@
     <li>Make some elements more dynamic with JS.</li>
     </ul>
 <h2>License</h2>
-    This project is licensed under the <a href=""> MIT License</a>.
+    This project is licensed under the <a href="https://github.com/mp-gutierrez/mp-gutierrez.github.io/blob/main/LICENSE"> MIT License</a>.
