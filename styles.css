@@ -186,3 +186,73 @@ p {
     font-size: 1.2em;
     margin: 2% auto 2% auto;
 }
+
+.grid-prj {
+    display: grid;
+    grid-template-areas: 
+    'projects projects projects projects'
+    'elm1      elm2      elm3     nav';
+    grid-template-columns: 30% 30% 30% 10%;
+    grid-template-rows: 30% 70%;
+    text-align: center;
+}
+
+.projects {
+    grid-area: projects;
+    text-align: center;
+    font-size: 2.6em;
+}
+
+.elm1 {
+    grid-area: elm1;
+}
+
+.elm2 {
+    grid-area: elm2;
+}
+
+.elm3 {
+    grid-area: elm3;
+}
+
+h2 {
+    color: rgb(255, 230, 0);
+}
+
+.pacmen-img {
+    background: url("./images/pacmen-sq.png");
+    background-repeat: no-repeat;
+    background-size: 105%;
+    background-position: center;
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    border-radius: 50px;
+}
+
+.eyes-img {
+    background: url("./images/eyes-sq.png");
+    background-repeat: no-repeat;
+    background-size: 105%;
+    background-position: center;
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    border-radius: 50px;
+}
+
+.bus-img {
+    background: url("./images/bustrckr-sq.png");
+    background-repeat: no-repeat;
+    background-size: 105%;
+    background-position: center;
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    border-radius: 50px;
+}
+
+.elm-description {
+    width: 80%;
+    margin: auto;
+}
