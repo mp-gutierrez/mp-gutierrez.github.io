@@ -74,20 +74,18 @@ header {
 
 footer {
     grid-area: footer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 main {
     grid-area: main;
+    height: 80%;
 }
 
 .text {
     grid-area: text;
     background-color: #2980b9;
     border-radius: 8%;
-    height: 75%;
+    height: 65%;
     margin-top: 5%;
 }
 
@@ -97,8 +95,8 @@ main {
     background-size: 100% 110%;
     background-position: center;
     border-radius: 50%;
-    height: 150px;
-    width: 150px;
+    height: 100px;
+    width: 100px;
     margin: auto;
 }
 
@@ -117,9 +115,10 @@ main {
 }
 
 .p-container {
-    padding: 4%;
+    padding: 0 4% 0 4%;
     font-size: 1.2em;
     text-align: center;
+    margin: 0;
 }
 
 iframe {
@@ -165,15 +164,16 @@ a {
 
 a:visited {
     text-decoration: none;
-    color: #fff;
+    color: rgb(255, 230, 0);
   }
 
-.footer-title {
+  .footer-title {
     color: rgb(255, 230, 0);
-    font-size: 2em;
-
+    font-size: 1.8em;
+    width: 600px;
+    margin: auto;
+    text-align: center;    
 }
-
 
 p {
     font-size: 1em;
@@ -181,10 +181,15 @@ p {
 
 .link {
     text-align: center;
-    width: 100px;
-    height: 100px;
+    height: auto;
+    width: 30%;
+    margin: 0 50px 0 50px;
+    background-color: #2980b9;
+    border-radius: 20px;
+    font-size: 1.2em;
 }
 
 .footer-content {
-
+    font-size: 1.2em;
+    margin: 2% auto 2% auto;
 }
