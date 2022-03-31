@@ -18,7 +18,7 @@ nav {
     transform: translateY(-50%);
     grid-area: nav;
     margin: 0 2% 0 6%;
-    color: #fff;
+    color: #e74c3c;
 }
 
 nav a {
@@ -28,7 +28,7 @@ nav a {
     margin: 10px;
     height: 40px;
     width: 40px;
-    color: #fff;
+    color: rgb(255, 230, 0);
 }
 
 .icon-nav {
