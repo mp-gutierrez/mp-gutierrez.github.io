@@ -5,20 +5,10 @@ html {
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
-}
-
-section {
     color: #fff;
     font-weight: 800;
-    height: 100vh;
-}
-
-#page-1, nav a:nth-of-type(1) {
+    height: 80%;
     background-color: #8e44ad;
-}
-
-#page-2, nav a:nth-of-type(2) {
-    background-color: #2980b9;
 }
 
 nav {
@@ -78,14 +68,14 @@ footer {
 
 main {
     grid-area: main;
-    height: 80%;
+    height: 90%;
 }
 
 .text {
     grid-area: text;
     background-color: #2980b9;
     border-radius: 8%;
-    height: 65%;
+    height: 70%;
     margin-top: 5%;
 }
 
@@ -168,25 +158,28 @@ a:visited {
   }
 
   .footer-title {
-    color: rgb(255, 230, 0);
+    background-color: rgb(255, 230, 0);
+    color: #8e44ad;
     font-size: 1.8em;
     width: 600px;
-    margin: auto;
+    margin: 0 auto 0 auto;
     text-align: center;    
 }
 
 p {
     font-size: 1em;
+    margin-top: 2%;
 }
 
 .link {
     text-align: center;
     height: auto;
-    width: 30%;
-    margin: 0 50px 0 50px;
+    width: 20%;
+    margin: 0 10% 0 10%;
     background-color: #2980b9;
     border-radius: 20px;
-    font-size: 1.2em;
+    font-size: 1.4em;
+    padding: 2px;
 }
 
 .footer-content {
