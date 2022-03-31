@@ -1,1 +1,0 @@
-# mp-gutierrez.github.io
